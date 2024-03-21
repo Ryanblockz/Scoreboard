@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    background-color: blueviolet;
+}
+
+@font-face {
+    font-family: 'digital';
+    src: url("digital-7.ttf");
+}
+
+.columnAll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+    background-color: black;
+    color: red;
+    border-radius: 10px;
+    font-family: digital;
+}
+
+.columnAll {
+    width: 210px;
+}
+
+#home-base {
+    text-align: center;
+}
+
+#homeScore {
+    margin: right 11px;
+}
+
+.container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    align-items: center;
+    font-weight: 900;
+    font-size: 55px;
+    color: antiquewhite;
+}
+
+.buttons {
+    display: flex;
+    padding: 15px;
+    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    font-family: digital;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
+
+.newGame {
+    text-align: center;
+
+}
+
+.newGameButton {
+    background-color: greenyellow;
+    font-family: calibri;
+    color: black;
+    border-color: black;
+    font-weight: bold;
+}
+
+.newGameButton:hover {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5% 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.interactive-button:hover {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5% 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.newGameButton:active {
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.interactive-button:active {
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 5% 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.lead {
+    color: green;
+    font-weight: bold;
+}

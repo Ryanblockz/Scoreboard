@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container debug">
+        <div id="home-base" class="columnAll home debug">
+            <span>HOME</span>
+            <div id="homeScore" class="score">
+                <h4 id="currentHomeScore">0</h4>
+            </div>
+            <div class="buttons">
+                <button onclick="threePoints()" class="interactive-button">+3</button>
+                <button onclick="sixPoints()" class="interactive-button">+6</button>
+                <button onclick="ninePoints()" class="interactive-button">+9</button>
+            </div>
+        </div>
+
+        <div id="guest-base" class="columnAll debug">
+            <div class="guestText">
+                <span>GUEST</span>
+                <div>
+                    <div id="guestScore" class="score">
+                        <h4 id="currentGuestScore">0</h4>
+                    </div>
+                    <div class="buttons">
+                        <button onclick="threePointsG()" class="interactive-button">+3</button>
+                        <button onclick="sixPointsG()" class="interactive-button">+6</button>
+                        <button onclick="ninePointsG()" class="interactive-button">+9</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div onclick="newGame()" class="newGame">
+        <button class="newGameButton">New Game</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
